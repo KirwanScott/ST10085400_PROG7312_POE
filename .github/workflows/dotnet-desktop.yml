@@ -1,10 +1,10 @@
-name: .NET
+name: .NET Framework
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -12,14 +12,16 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+    - uses: actions/checkout@v2
+
+    - name: Setup MSBuild
+      uses: warrenbuckley/Setup-MSBuild@v1
       with:
-        dotnet-version: 7.0.x
-    - name: Restore dependencies
-      run: dotnet restore
+        msbuild-version: 4.8
+        use-default-credentials: true
+
     - name: Build
-      run: dotnet build --no-restore
+      run: msbuild /p:Configuration=Release ST10085400_PROG7312_POE.sln
+
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: vstest.console.exe bin\Release\ST10085400_PROG7312_POE.dll
