@@ -53,7 +53,7 @@ To run this app, you will need the following software installed on your system:
 9. To take a sneak peek at the answer click 'Show Answer'.
 10. Your highscore will always be there when you are in the app so try and beat it.
 
-**MORE GAMES COMING SOON**
+**MORE GAMES COMING SOON!!!**
 
 ## Contributing
 
