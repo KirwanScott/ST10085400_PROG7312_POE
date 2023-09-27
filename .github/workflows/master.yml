@@ -1,31 +1,11 @@
-name: .NET Framework WPF CI/CD
+name: Tests
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
-  build:
+  tests:
+    name: Unit Testing
     runs-on: windows-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Setup .NET Framework SDK
-      uses: warrenbuckley/Setup-NET-Framework@v1
-      with:
-        net-framework-version: '4.x'
-
-    - name: Restore NuGet packages
-      run: nuget restore ST10085400_PROG7312_POE/ST10085400_PROG7312_POE.sln
-
-    - name: Build the solution
-      run: msbuild /p:Configuration=Release ST10085400_PROG7312_POE/ST10085400_PROG7312_POE.sln
-      
-    - name: Publish app artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: app-artifact
-        path: ST10085400_PROG7312_POE/ST10085400_PROG7312_POE/bin/Release
+      - uses: actions/checkout@v2.1.0
+      - run: dotnet test
