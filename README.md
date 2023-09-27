@@ -44,21 +44,6 @@ To run this app, you will need the following software installed on your system:
 
 [Explain how the user can interact with and use your app. Provide instructions for any user actions, such as logging in, navigating, performing specific tasks, and any relevant features.]
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the project on GitHub.
-
-2. Create a new branch for your feature or bug fix.
-
-3. Make your changes and commit them with clear, concise commit messages.
-
-4. Push your changes to your fork.
-
-5. Submit a pull request to the original repository, detailing your changes and any relevant information.
-
-
 ## references
 
 WPF C# Professional Modern Flat UI Tutorial - Payload. 2021. Youtube video, added by Payload. [Online]. Available at: [https://youtu.be/PzP8mw7JUzI?si=t1ssKsyHTCbsFg2v](https://youtu.be/PzP8mw7JUzI?si=t1ssKsyHTCbsFg2v) [Accessed 27 September 2023]
