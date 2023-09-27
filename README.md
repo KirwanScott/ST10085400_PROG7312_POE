@@ -42,7 +42,33 @@ To run this app, you will need the following software installed on your system:
 
 ## Using the App
 
-[Explain how the user can interact with and use your app. Provide instructions for any user actions, such as logging in, navigating, performing specific tasks, and any relevant features.]
+1. Click on the Guest button to enter the app.
+2. You wil be greeted by a home screen and there will be games to select on the sides.
+3. The only options on the sidebar that works for now are the Home and Replace Books Options.
+4. Once you are in the Replace Books page, Click 'Start' to generate 10 random numbers.
+5. Sort the numbers in Ascending order by clicking on one of the 10 random numbers.
+6. If you have made a mistake along the way click 'Undo', this will undo your previous mistake.
+7. If you are happy with the order your Numbers are in click 'Check Order'.
+8. If the order is correct the user will get +10 points, if the order is incorrect the user will get -5 points.
+9. To take a sneak peek at the answer click 'Show Answer'.
+10. Your highscore will always be there when you are in the app so try and beat it.
+
+**MORE GAMES COMING SOON**
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the project on GitHub.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and commit them with clear, concise commit messages.
+
+4. Push your changes to your fork.
+
+5. Submit a pull request to the original repository, detailing your changes and any relevant information.
+
 
 ## references
 
