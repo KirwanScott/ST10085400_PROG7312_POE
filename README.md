@@ -10,6 +10,7 @@
 3. [Using the App](#using-the-app)
 4. [Contributing](#contributing)
 5. [License](#license)
+6. [References](#references)
 
 ## Introduction
 
@@ -60,3 +61,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Submit a pull request to the original repository, detailing your changes and any relevant information.
 
 
+## references
+
+WPF C# Professional Modern Flat UI Tutorial - Payload. 2021. Youtube video, added by Payload. [Online]. Available at: [https://youtu.be/PzP8mw7JUzI?si=t1ssKsyHTCbsFg2v](https://youtu.be/PzP8mw7JUzI?si=t1ssKsyHTCbsFg2v) [Accessed 27 September 2023]
