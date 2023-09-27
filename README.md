@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This MVVM (Model-View-ViewModel) app is designed to <span style="color: Red;">[briefly describe the purpose and features of your app]</span>.
+This MVVM (Model-View-ViewModel) app is designed to <span style="color: #eggh34;">briefly describe the purpose and features of your app</span>.
 
 ## Getting Started
 
